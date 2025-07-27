@@ -29,7 +29,8 @@ def fizz_buzz(number):
 # Question 2
 
 # Write a function that takes a list of numbers and returns the sum of the squares of all the numbers.
-
+# A more “functional” style is
+# return sum(x*x for x in numbers)
 
 def sum_of_squares(numbers):
     """Returns the sum of the squares of all the numbers in a list.
